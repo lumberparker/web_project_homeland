@@ -4,7 +4,17 @@
   color: #ffffff;
   min-width: 1100px;
   max-width: 1600px;
+  padding-bottom: 24px;
+
   margin: 0;
+  margin: auto;
+}
+.content {
+  display:flex;
+  flex-direction: column;
+  width: 984px;
+margin: auto;
+
 }
 @media screen and (max-width: 768) {
 }
