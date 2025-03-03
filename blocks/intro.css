@@ -37,7 +37,10 @@
   height: 181.54px;
   margin-right: 108px;
 }
-@media screen and (max-width: 768) {
+@media screen and (max-width: 768px) {
+  .intro {
+    display: block;
+  }
 }
-@media screen and (max-width: 320) {
+@media screen and (max-width: 320px) {
 }
