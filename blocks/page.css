@@ -2,19 +2,55 @@ html {
   background-color: #2a2c2f;
   font-family: "Inter", Arial, sans-serif;
   color: #ffffff;
-  min-width: 1100px;
+  min-width: 769;
   max-width: 1600px;
-  padding-bottom: 24px;
+
   margin: 0;
   margin: auto;
   height: 100%;
 }
-
+body {
+  height: 100%;
+}
+.page {
+  padding-bottom: 24px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
 .content {
-  width: 984px;
+  max-width: 984px;
   margin: auto;
+
+
 }
-@media screen and (max-width: 768) {
+
+@media screen and (max-width: 768px) {
+  html {
+    min-width: 321px;
+    padding-bottom: 20px;
+  }
+
+  .content {
+    width: 100%;
+    margin: auto;
+   
+   
+  body {
+    height: 100%;
+  }
 }
-@media screen and (max-width: 320) {
+
+@media screen and (max-width: 320px) {
+  html {
+    max-width: 320px;
+    font-size: 14px;
+    min-width: ;
+  }
+
+  .content {
+    width: 100vw;
+    margin: 0;
+   
+  }
 }
