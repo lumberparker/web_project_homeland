@@ -1,43 +1,125 @@
 .lead {
-  width: 984px;
+  width: 76.87vw;
   height: 983px;
-  margin: auto;
-  
 }
-.lead__title{
-font-family: Inter;
-font-weight: 900;
-font-size: 96px;
-line-height: 100px;
-letter-spacing: 0%;
-text-align: center;
-height:200px;
-width: 720px;
-margin: 91px auto 32px;
-
+.lead__title {
+  position: absolute;
+  top: 194px;
+  left: 50%;
+  transform: translateX(-50%); /* This will center the logo */
+  font-family: Inter;
+  font-weight: 900;
+  font-size: 96px;
+  line-height: 100px;
+  letter-spacing: 0%;
+  text-align: center;
+  width: 720px;
+  margin: 0px;
 }
-.lead__subtitle{
-font-family: Inter;
-font-weight: 400;
-font-size: 30px;
-line-height: 36px;
-letter-spacing: 0%;
-text-align: center;
-height: 72px;
-width:720px;
-margin:auto;
-
-
+.lead__subtitle {
+  position: absolute;
+  top: 426px;
+  left: 50%;
+  transform: translateX(-50%); /* This will center the logo */
+  font-family: Inter;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 36px;
+  letter-spacing: 0%;
+  text-align: center;
+  height: 72px;
+  width: 720px;
+  margin: 0;
 }
 .lead__image {
-  width: 100%;
-  height: 615px;
-  margin-top: 64px;
-
-
+  position: absolute;
+  top: 562px;
+  left: 50%;
+  transform: translateX(-50%); /* This will center the logo */
+  max-width: 984px;
+  min-width: 769px;
+  width: 76.9vw;
+  height: 48.6vw;
+  max-height: 530px;
 }
 
-@media screen and (max-width: 768) {
+@media screen and (max-width: 768px) {
+  .lead {
+    width: 6.88vw;
+    height: 30vh;
+  }
+  .lead__title {
+    position: absolute;
+    top: 186px;
+    left: ;
+    transform: translateX(-50%); /* This will center the logo */
+    font-family: Inter;
+    font-weight: 900;
+    font-size: 9.765vw;
+    line-height: 10.68vw;
+    letter-spacing: 0%;
+    text-align: center;
+    width: 68.8vw;
+    margin: 0px;
+  }
+  .lead__subtitle {
+    position: absolute;
+    top: 360px;
+    left: 50%;
+    transform: translateX(-50%); /* This will center the logo */
+
+    font-size: 3.9vw;
+    line-height: 4.68vw;
+    letter-spacing: 0%;
+    text-align: center;
+    height: 72px;
+    width: 93vw;
+    margin: 10px;
+  }
+  .lead__image {
+    position: absolute;
+    left: 50%;
+    top: 471px;
+    left: 50%;
+    transform: translateX(-50%); /* This will center the logo */
+    width: 100vw;
+  }
 }
-@media screen and (max-width: 320) {
+@media screen and (max-width: 320px) {
+  .lead {
+    width: 9vw;
+  }
+  .lead__title {
+    position: absolute;
+    top: 122px;
+    left: 50%;
+    transform: translateX(-50%); /* This will center the logo */
+    font-family: Inter;
+    font-weight: 900;
+    font-size: 12.5vw;
+    line-height: 13.02vw;
+    letter-spacing: 0%;
+    text-align: center;
+    width: 83.75vw;
+  }
+  .lead__subtitle {
+    position: absolute;
+    top: 226px;
+    left: 50%;
+    transform: translateX(-50%); /* This will center the logo */
+    font-size: 3.9vw;
+    line-height: 4.68vw;
+    letter-spacing: 0%;
+    text-align: center;
+    height: 72px;
+    width: 93vw;
+  }
+  .lead__image {
+    position: absolute;
+    top: 306px;
+    left: 50%;
+    transform: translateX(-50%); /* This will center the logo */
+    min-width: 100%;
+    width: 100%;
+  }
 }
