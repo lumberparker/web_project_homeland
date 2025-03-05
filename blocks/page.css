@@ -37,13 +37,13 @@ body {
   height: auto; /* Ensure the height matches the content */
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1024px) {
   .content {
     max-width: 100%; /* Ensure the content width never exceeds the viewport */
   }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 544px) {
   .content {
     max-width: 100%; /* Ensure the content width never exceeds the viewport */
   }
