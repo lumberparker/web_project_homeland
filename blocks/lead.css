@@ -61,7 +61,7 @@
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1024px) {
   .lead {
     width: 100%;
     height: auto;
@@ -100,7 +100,7 @@
   }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 544px) {
   .lead {
     width: 100%;
     height: auto;
