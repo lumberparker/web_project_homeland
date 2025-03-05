@@ -2,19 +2,19 @@
     display: flex;
     flex-direction: column;
     width: 100%;
-    max-width: 100%; /* Ensure the width never exceeds the viewport */
+    max-width: 100%;
     margin: auto;
-    height: auto; /* Ensure the height matches the content */
+    height: auto;
 }
 
 @media screen and (max-width: 1024px) {
     .content {
-        max-width: 100%; /* Ensure the content width never exceeds the viewport */
+        max-width: 100%;
     }
 }
 
 @media screen and (max-width: 544px) {
     .content {
-        max-width: 100%; /* Ensure the content width never exceeds the viewport */
+        max-width: 100%;
     }
 }

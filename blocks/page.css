@@ -2,18 +2,18 @@ html {
     background-color: #2a2c2f;
     font-family: "Inter", Arial, sans-serif;
     color: #ffffff;
-    min-width: 320px; /* Ensure the minimum width is 320px */
-    width: 100%; /* Ensure the width never exceeds the viewport */
+    min-width: 320px;
+    width: 100%;
     padding-bottom: 24px;
     margin: 0;
-    overflow-x: hidden; /* Prevent horizontal scrolling */
+    overflow-x: hidden;
 }
 
 body {
     margin: 0;
-    width: 100%; /* Ensure the width never exceeds the viewport */
-    overflow-x: hidden; /* Prevent horizontal scrolling */
-    height: auto; /* Ensure the height matches the content */
+    width: 100%;
+    overflow-x: hidden;
+    height: auto;
 }
 
 .page {
@@ -23,7 +23,7 @@ body {
     display: flex;
     flex-direction: column;
     width: 100%;
-    max-width: 100%; /* Ensure the width never exceeds the viewport */
+    max-width: 100%;
     margin: auto;
-    height: auto; /* Ensure the height matches the content */
+    height: auto;
 }
