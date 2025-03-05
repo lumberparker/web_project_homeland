@@ -1,50 +1,29 @@
 html {
-  background-color: #2a2c2f;
-  font-family: "Inter", Arial, sans-serif;
-  color: #ffffff;
-  min-width: 320px; /* Ensure the minimum width is 320px */
-  width: 100%; /* Ensure the width never exceeds the viewport */
-  padding-bottom: 24px;
-  margin: 0;
-  overflow-x: hidden; /* Prevent horizontal scrolling */
+    background-color: #2a2c2f;
+    font-family: "Inter", Arial, sans-serif;
+    color: #ffffff;
+    min-width: 320px; /* Ensure the minimum width is 320px */
+    width: 100%; /* Ensure the width never exceeds the viewport */
+    padding-bottom: 24px;
+    margin: 0;
+    overflow-x: hidden; /* Prevent horizontal scrolling */
 }
 
 body {
-  margin: 0;
-  width: 100%; /* Ensure the width never exceeds the viewport */
-  overflow-x: hidden; /* Prevent horizontal scrolling */
-  height: auto; /* Ensure the height matches the content */
+    margin: 0;
+    width: 100%; /* Ensure the width never exceeds the viewport */
+    overflow-x: hidden; /* Prevent horizontal scrolling */
+    height: auto; /* Ensure the height matches the content */
 }
 
 .page {
-  background-color: #2a2c2f;
-  font-family: "Inter", Arial, sans-serif;
-  color: #ffffff;
-  display: flex;
-  flex-direction: column;
-  width: 100%;
-  max-width: 100%; /* Ensure the width never exceeds the viewport */
-  margin: auto;
-  height: auto; /* Ensure the height matches the content */
-}
-
-.content {
-  display: flex;
-  flex-direction: column;
-  width: 100%;
-  max-width: 100%; /* Ensure the width never exceeds the viewport */
-  margin: auto;
-  height: auto; /* Ensure the height matches the content */
-}
-
-@media screen and (max-width: 1024px) {
-  .content {
-    max-width: 100%; /* Ensure the content width never exceeds the viewport */
-  }
-}
-
-@media screen and (max-width: 544px) {
-  .content {
-    max-width: 100%; /* Ensure the content width never exceeds the viewport */
-  }
+    background-color: #2a2c2f;
+    font-family: "Inter", Arial, sans-serif;
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 100%; /* Ensure the width never exceeds the viewport */
+    margin: auto;
+    height: auto; /* Ensure the height matches the content */
 }
