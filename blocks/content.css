@@ -1,9 +1,12 @@
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 .content {
   display: flex;
   flex-direction: column;
   max-width: 500px;
 }
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
 .content__image {
@@ -17,7 +20,10 @@
   }
   .content__image {
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     display: block;
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
     width: 100vw;
@@ -26,7 +32,10 @@
   }
 }
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 =======
+=======
+>>>>>>> Stashed changes
 @media screen and (max-width: 768px) {
   .content__image {
     margin-top: 40px;
@@ -34,6 +43,9 @@
     margin: auto;
   }
 }
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 @media screen and (max-width: 320px) {
   .content__image {
