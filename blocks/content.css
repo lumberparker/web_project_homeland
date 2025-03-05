@@ -1,8 +1,11 @@
+<<<<<<< Updated upstream
 .content {
   display: flex;
   flex-direction: column;
   max-width: 500px;
 }
+=======
+>>>>>>> Stashed changes
 .content__image {
   display: none;
 }
@@ -13,12 +16,25 @@
     width: 100vw;
   }
   .content__image {
+<<<<<<< Updated upstream
     display: block;
+=======
+>>>>>>> Stashed changes
     width: 100vw;
     margin: auto;
     margin-top: 30px;
   }
 }
+<<<<<<< Updated upstream
+=======
+@media screen and (max-width: 768px) {
+  .content__image {
+    margin-top: 40px;
+    width: 100vw;
+    margin: auto;
+  }
+}
+>>>>>>> Stashed changes
 @media screen and (max-width: 320px) {
   .content__image {
     margin-top: 40px;

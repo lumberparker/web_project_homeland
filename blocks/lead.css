@@ -1,6 +1,7 @@
 .lead {
   display: flex;
   flex-direction: column;
+<<<<<<< Updated upstream
   margin-top: 91.06px;
   margin: auto;
   height: 983px;
@@ -50,6 +51,49 @@
   .lead__image {
     display: none;
   }
+=======
+  width: 984px;
+  height: 983px;
+  margin: auto;
+}
+.lead__title {
+  font-family: Inter;
+  font-weight: 900;
+  font-size: 96px;
+  line-height: 100px;
+  letter-spacing: 0%;
+  text-align: center;
+  height: 200px;
+  width: 720px;
+  margin: 91px auto 32px;
+}
+.lead__subtitle {
+  font-family: Inter;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 36px;
+  letter-spacing: 0%;
+  text-align: center;
+  height: 72px;
+  width: 720px;
+  margin: auto;
+}
+.lead__image {
+  width: 100vh;
+  height: 615px;
+  margin-top: 64px;
+  max-width: 984px;
+  margin: auto;
+}
+
+@media screen and (max-width: 768) {
+  .lead {
+    display: flex;
+    flex-direction: column;
+    width: 720px;
+    margin: auto;
+  }
+>>>>>>> Stashed changes
 }
 
 @media screen and (max-width: 320px) {
