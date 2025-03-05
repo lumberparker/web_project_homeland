@@ -1,0 +1,28 @@
+.content {
+  display: flex;
+  flex-direction: column;
+  max-width: 500px;
+}
+.content__image {
+  display: none;
+}
+@media screen and (max-width: 768px) {
+  .content {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+  }
+  .content__image {
+    display: block;
+    width: 100vw;
+    margin: auto;
+    margin-top: 30px;
+  }
+}
+@media screen and (max-width: 320px) {
+  .content__image {
+    margin-top: 40px;
+    width: 100vw;
+    margin: auto;
+  }
+}
