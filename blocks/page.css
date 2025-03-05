@@ -1,29 +1,47 @@
 html {
   background-color: #2a2c2f;
   font-family: "Inter", Arial, sans-serif;
-  background-color: #2a2c2f;
-  min-width: 769px;
   color: #ffffff;
-
- 
-  margin: 0px;
-
-  box-sizing: border-box;
-  height: 100vh;
+  min-width: 320px; /* Ensure the minimum width is 320px */
+  width: 100%; /* Ensure the width never exceeds the viewport */
+  padding-bottom: 24px;
+  margin: 0;
+  overflow-x: hidden; /* Prevent horizontal scrolling */
 }
-.page{
+
+body {
+  margin: 0;
+  width: 100%; /* Ensure the width never exceeds the viewport */
+  overflow-x: hidden; /* Prevent horizontal scrolling */
+  height: auto; /* Ensure the height matches the content */
+}
+
+.page {
   display: flex;
   flex-direction: column;
+  width: 100%;
+  max-width: 100%; /* Ensure the width never exceeds the viewport */
+  margin: auto;
+  height: auto; /* Ensure the height matches the content */
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 100%; /* Ensure the width never exceeds the viewport */
+  margin: auto;
+  height: auto; /* Ensure the height matches the content */
 }
 
 @media screen and (max-width: 768px) {
-  .page {
-    min-width: 321px;
-    max-width: 768px;
-    width: 100vw;
-    margin: 0px;
-    
+  .content {
+    max-width: 100%; /* Ensure the content width never exceeds the viewport */
   }
+}
 
 @media screen and (max-width: 320px) {
+  .content {
+    max-width: 100%; /* Ensure the content width never exceeds the viewport */
+  }
 }

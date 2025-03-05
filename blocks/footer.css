@@ -1,7 +1,31 @@
 .footer {
-  text-align: center;
-  margin-top: 132px;
+  display: flex;
+  justify-content: center; /* Center content horizontally */
+  align-items: center; /* Center content vertically */
+  width: 100%; /* Ensure the footer takes the full width of the container */
+  height: auto;
+  margin: 0 auto 24px auto; /* Center horizontally and add bottom margin */
 }
 
 .footer__copyright {
+  font-family: Inter;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0%;
+  text-align: center;
+  margin-top: 92px; /* Default margin-top */
+  width: 100%; /* Ensure it takes the full width of the container */
+}
+
+@media screen and (max-width: 768px) {
+  .footer__copyright {
+    margin-top: 88px; /* Margin-top for viewport width <= 768px */
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .footer__copyright {
+    margin-top: 64px; /* Margin-top for viewport width <= 320px */
+  }
 }

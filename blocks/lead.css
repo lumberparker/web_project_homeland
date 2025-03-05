@@ -2,103 +2,140 @@
   display: flex;
   flex-direction: column;
   align-items: center; /* Center content horizontally */
-  justify-content: center; /* Center content vertically */
-  margin-top: 9.106vh; /* 91.06px to vh */
-  margin-bottom: 9.2vh; /* 92px to vh */
+  width: 100%;
+  height: auto;
   margin: auto;
-  height: 98.3vh; /* 983px to vh */
-  width: 90vw;
   max-width: 1280px; /* Stop growing beyond 1280px */
 }
 
 .lead__title {
   font-family: Inter;
   font-weight: 900;
-  font-size: 9.6vh; /* 96px to vh */
-  line-height: 10vh; /* 100px to vh */
+  font-size: 96px;
+  line-height: 100px;
   letter-spacing: 0%;
   text-align: center;
-  width: 72vh; /* 720px to vh */
-  margin: auto;
+  width: 720px;
+  height: 200px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 0;
 }
 
 .lead__subtitle {
-  font-size: 2.4vh; /* 24px to vh */
-  line-height: 3.4vh; /* 34px to vh */
+  font-family: Inter;
   font-weight: 400;
+  font-size: 30px;
+  line-height: 36px;
+  letter-spacing: 0%;
   text-align: center;
-  width: 73.8vh; /* 738px to vh */
-  margin: 2.5vh auto 0; /* 25px to vh */
+  width: 720px;
+  height: 72px;
+  margin-top: 32px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 0;
 }
 
 .lead__image {
-  margin-top: 6.4vh; /* 64px to vh */
-  width: 100%;
+  width: 100%; /* Ensure the image takes the full width of the container */
   height: auto;
-  max-width: 98.4vh; /* 984px to vh */
-  margin: auto;
+  margin-top: 64px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.lead__image-mobile {
+  display: none; /* Hide by default */
+}
+
+@media screen and (max-width: 948px) {
+  .lead__image {
+    width: 100%; /* Ensure the image takes the full width of the container */
+    height: auto;
+    margin-top: 30px; /* Top margin for 948px */
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
 
 @media screen and (max-width: 768px) {
   .lead {
-    margin-top: 9vh; /* 90px to vh */
-    margin-bottom: 9vh; /* 90px to vh */
     width: 100%;
     height: auto;
-    margin-left: auto;
-    margin-right: auto;
     align-items: center; /* Ensure content is centered horizontally */
   }
 
   .lead__title {
-    font-size: 7.5vh; /* 75px to vh */
-    line-height: 7.9vh; /* 79px to vh */
-    width: 53vh; /* 530px to vh */
+    font-size: 9.76vw;
+    line-height: 10.28vw;
+    width: 69.01vw;
+    height: 158px;
+    margin-top: 90px;
+    margin-left: auto;
+    margin-right: auto;
     text-align: center;
   }
 
   .lead__subtitle {
-    font-size: 2.4vh; /* 24px to vh */
-    line-height: 3.4vh; /* 34px to vh */
-    width: 53vh; /* 530px to vh */
+    font-size: 3.12vw;
+    line-height: 34px;
+    width: 93vw;
+    height: 72px;
+    margin-top: 25px;
+    margin-left: auto;
+    margin-right: auto;
     text-align: center;
   }
 
   .lead__image {
-    width: 100vw; /* Ensure the image takes the full width of the viewport */
+    width: 100%; /* Ensure the image takes the full width of the container */
     height: auto;
+    margin-top: 30px; /* Top margin for 768px */
     display: block;
+    margin-left: auto;
+    margin-right: auto;
   }
 }
 
 @media screen and (max-width: 320px) {
   .lead {
-    margin-top: 5vh; /* 50px to vh */
-    margin-bottom: 6.4vh; /* 64px to vh */
     width: 100%;
     height: auto;
-    margin-left: auto;
-    margin-right: auto;
     align-items: center; /* Ensure content is centered horizontally */
   }
 
   .lead__title {
-    font-size: 4vh; /* 40px to vh */
-    line-height: 4.4vh; /* 44px to vh */
-    width: 28.8vh; /* 288px to vh */
+    font-size: 40px;
+    line-height: 44px;
+    width: 228px;
+    height: 88px;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
     text-align: center;
   }
 
   .lead__subtitle {
-    font-size: 2.4vh; /* 24px to vh */
-    line-height: 3.4vh; /* 34px to vh */
-    width: 28.8vh; /* 288px to vh */
+    font-size: 5vw;
+    line-height: 20px;
+    width: 90vw;
+    height: 40px;
+    margin-top: 16px;
+    margin-left: auto;
+    margin-right: auto;
     text-align: center;
+    text-wrap: wrap;
   }
 
   .lead__image {
-    width: 100vw; /* Ensure the image takes the full width of the viewport */
+    width: 100%; /* Ensure the image takes the full width of the container */
     height: auto;
+    margin-top: 40px; /* Top margin for 320px */
     display: block;
+    margin-left: auto;
+    margin-right: auto;
   }
 }
