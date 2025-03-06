@@ -1,6 +1,7 @@
 @font-face {
   font-family: "Inter";
-  src: url("https://cdn.jsdelivr.net/fontsource/fonts/inter@latest/latin-400-normal.woff2")
+  src: url("../vendor/fonts/Inter-VariableFont_opsz\,wght.ttf") format("truetype");
+
     format("woff2");
   font-weight: normal;
   font-style: normal;
