@@ -2,7 +2,6 @@
     width: 100%;
     margin: 92px auto 0;
     max-width: 1280px; /* Ensure the content never exceeds a certain width */
-    padding: 0 20px; /* Add padding to ensure equal distance from both sides */
     box-sizing: border-box; /* Include padding in the element's total width and height */
 }
 
@@ -18,9 +17,17 @@
     margin: auto;
 }
 
-.places__place_image {
+.places__place_NFT-image {
     width: 100%;
     max-width: 450px;
+    height: auto;
+    display: block;
+    margin: 0; /* Remove margin to ensure equal distance from both sides */
+    object-fit: cover; /* Ensure the image keeps its proportions */
+}
+
+.places__place_NFT {
+    width: 100%;
     height: auto;
     display: block;
     margin: 0; /* Remove margin to ensure equal distance from both sides */
@@ -84,7 +91,6 @@
     .places {
         margin-top: 88px;
         width: 100%;
-        padding: 0 20px; /* Add padding to ensure equal distance from both sides */
     }
 
     .places__place {
@@ -97,11 +103,12 @@
         max-width: 100%; /* Ensure the content never exceeds the viewport width */
     }
 
-    .places__place_image {
+    .places__place_NFT-image {
         width: 100%;
         height: auto;
         display: block;
         margin: 0; /* Remove margin to ensure equal distance from both sides */
+        object-fit: cover; /* Ensure the image keeps its proportions */
     }
 
     .places__place_title {
@@ -162,7 +169,8 @@
 @media screen and (max-width: 700px) {
     .places {
         margin-top: 62px;
-        padding: 0 20px; /* Add padding to ensure equal distance from both sides */
+        padding: 0; /* Remove padding to ensure the container occupies the full width */
+        width: 100vw; /* Ensure the container takes the full width of the viewport */
     }
 
     .places__place {
@@ -175,10 +183,11 @@
         max-width: 100%; /* Ensure the content never exceeds the viewport width */
     }
 
-    .places__place_image {
-        width: 100%;
+    .places__place_NFT-image {
+        width: 100vw; /* Ensure the image takes the full width of the viewport */
         height: auto;
         display: block;
         margin: 0; /* Remove margin to ensure equal distance from both sides */
+        object-fit: cover; /* Ensure the image keeps its proportions */
     }
 }
