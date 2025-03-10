@@ -1,11 +1,11 @@
 .places {
     width: 100%;
     margin: 92px auto 0;
-    max-width: 1280px; /* Ensure the content never exceeds a certain width */
-    box-sizing: border-box; /* Include padding in the element's total width and height */
+    max-width: 1280px;
+    box-sizing: border-box;
 }
 
-.places__place {
+.places__item {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: auto;
@@ -13,27 +13,27 @@
     column-gap: 40px;
     justify-items: center;
     width: 100%;
-    max-width: 100%; /* Ensure the content never exceeds the viewport width */
+    max-width: 100%;
     margin: auto;
 }
 
-.places__place_NFT-image {
+.places__nft places__nft-image {
     width: 100%;
     max-width: 450px;
     height: auto;
     display: block;
-    margin: 0; /* Remove margin to ensure equal distance from both sides */
-    object-fit: cover; /* Ensure the image keeps its proportions */
+    margin: 0;
+    object-fit: cover;
 }
 
-.places__place_NFT {
+.places__nft {
     width: 100%;
     height: auto;
     display: block;
-    margin: 0; /* Remove margin to ensure equal distance from both sides */
+    margin: 0;
 }
 
-.places__place_title {
+.places__title {
     width: 460px;
     font-weight: 900;
     font-size: 72px;
@@ -42,13 +42,13 @@
     margin: 0px;
 }
 
-.places__place_website {
+.places__website {
     display: block;
     align-self: self-end;
     justify-self: start;
 }
 
-.places__place_website-heading {
+.places__website places__website-heading {
     margin: 0;
     font-size: 12px;
     line-height: 100%;
@@ -57,21 +57,21 @@
     text-transform: uppercase;
 }
 
-.places__place_website-artist {
+.places__website places__website-artist {
     margin: 0;
     font-size: 18px;
     line-height: 22px;
     font-weight: 400;
 }
 
-.places__place_main-text {
+.places__main-text {
     font-weight: 400;
     font-size: 18px;
     line-height: 163%;
     letter-spacing: 0;
 }
 
-.places__place_NFT-button {
+.places__nft places__nft-button {
     margin-top: 48px;
     width: 289px;
     height: 38px;
@@ -93,25 +93,25 @@
         width: 100%;
     }
 
-    .places__place {
+    .places__item {
         display: grid;
         grid-template-columns: 1fr 2fr;
         grid-template-rows: auto;
         row-gap: 28px;
         column-gap: 40px;
         justify-items: center;
-        max-width: 100%; /* Ensure the content never exceeds the viewport width */
+        max-width: 100%;
     }
 
-    .places__place_NFT-image {
+    .places__nft places__nft-image {
         width: 100%;
         height: auto;
         display: block;
-        margin: 0; /* Remove margin to ensure equal distance from both sides */
-        object-fit: cover; /* Ensure the image keeps its proportions */
+        margin: 0;
+        object-fit: cover;
     }
 
-    .places__place_title {
+    .places__title {
         width: 460px;
         font-weight: 900;
         font-size: 42px;
@@ -120,13 +120,13 @@
         margin: 0px;
     }
 
-    .places__place_website {
+    .places__website {
         display: block;
         align-self: self-end;
         justify-self: start;
     }
 
-    .places__place_website-heading {
+    .places__website places__website-heading {
         margin: 0;
         font-size: 12px;
         line-height: 100%;
@@ -135,21 +135,21 @@
         text-transform: uppercase;
     }
 
-    .places__place_website-artist {
+    .places__website places__website-artist {
         margin: 0;
         font-size: 18px;
         line-height: 22px;
         font-weight: 400;
     }
 
-    .places__place_main-text {
+    .places__main-text {
         font-weight: 400;
         font-size: 16px;
         line-height: 163%;
         letter-spacing: 0;
     }
 
-    .places__place_NFT-button {
+    .places__nft places__nft-button {
         margin-top: 48px;
         width: 289px;
         height: 38px;
@@ -169,25 +169,25 @@
 @media screen and (max-width: 700px) {
     .places {
         margin-top: 62px;
-        padding: 0; /* Remove padding to ensure the container occupies the full width */
-        width: 100vw; /* Ensure the container takes the full width of the viewport */
+        padding: 0;
+        width: 100vw;
     }
 
-    .places__place {
+    .places__item {
         display: grid;
         grid-template-columns: 1fr;
         grid-template-rows: repeat(5, auto);
         row-gap: 28px;
         column-gap: 40px;
         justify-items: center;
-        max-width: 100%; /* Ensure the content never exceeds the viewport width */
+        max-width: 100%;
     }
 
-    .places__place_NFT-image {
-        width: 100vw; /* Ensure the image takes the full width of the viewport */
+    .places__nft places__nft-image {
+        width: 100vw;
         height: auto;
         display: block;
-        margin: 0; /* Remove margin to ensure equal distance from both sides */
-        object-fit: cover; /* Ensure the image keeps its proportions */
+        margin: 0;
+        object-fit: cover;
     }
 }
