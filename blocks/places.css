@@ -149,7 +149,7 @@
         letter-spacing: 0;
     }
 
-    .places__nft-button {
+    .places__button {
         margin-top: 48px;
         width: 289px;
         height: 38px;
@@ -183,7 +183,7 @@
         max-width: 100%;
     }
 
-    .places__nft-image {
+    .places__nft places__nft-image {
         width: 100vw;
         height: auto;
         display: block;
