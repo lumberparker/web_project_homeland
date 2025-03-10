@@ -1,0 +1,59 @@
+.places {
+    margin-top: 92px;
+
+    align-items: center;
+    width: 100%;
+}
+.places__place {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    grid-template-rows: auto;
+    row-gap: 48px;
+    column-gap: 40px;
+}
+.places__place_image {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.places__place_title {
+    width: 480px;
+    font-weight: 900;
+    font-size: 72px;
+    line-height: 76px;
+    text-align: left;
+}
+.places__place_website {
+    display: flex;
+    flex-direction: column;
+}
+.places__place_website_heading {
+    margin: 0;
+}
+.places__place_website_artist {
+    margin: 0;
+}
+
+@media screen and (max-width: 768px) {
+    .place {
+        margin-top: 88px;
+    }
+    .places__place {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(3, auto);
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .place {
+        margin-top: 62px;
+    }
+    .places__place {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(5, auto);
+    }
+}
