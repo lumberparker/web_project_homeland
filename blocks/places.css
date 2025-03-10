@@ -1,59 +1,184 @@
 .places {
-    margin-top: 92px;
-
-    align-items: center;
     width: 100%;
+    margin: 92px auto 0;
+    max-width: 1280px; /* Ensure the content never exceeds a certain width */
+    padding: 0 20px; /* Add padding to ensure equal distance from both sides */
+    box-sizing: border-box; /* Include padding in the element's total width and height */
 }
+
 .places__place {
     display: grid;
-    grid-template-columns: repeat(2, minmax(0, 1fr));
+    grid-template-columns: 1fr 1fr;
     grid-template-rows: auto;
     row-gap: 48px;
     column-gap: 40px;
+    justify-items: center;
+    width: 100%;
+    max-width: 100%; /* Ensure the content never exceeds the viewport width */
+    margin: auto;
 }
+
 .places__place_image {
     width: 100%;
+    max-width: 450px;
     height: auto;
     display: block;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 0; /* Remove margin to ensure equal distance from both sides */
 }
+
 .places__place_title {
-    width: 480px;
+    width: 460px;
     font-weight: 900;
     font-size: 72px;
     line-height: 76px;
     text-align: left;
+    margin: 0px;
 }
+
 .places__place_website {
-    display: flex;
-    flex-direction: column;
-}
-.places__place_website_heading {
-    margin: 0;
-}
-.places__place_website_artist {
-    margin: 0;
+    display: block;
+    align-self: self-end;
+    justify-self: start;
 }
 
-@media screen and (max-width: 768px) {
-    .place {
+.places__place_website-heading {
+    margin: 0;
+    font-size: 12px;
+    line-height: 100%;
+    font-weight: 400;
+    color: #aaaaaa;
+    text-transform: uppercase;
+}
+
+.places__place_website-artist {
+    margin: 0;
+    font-size: 18px;
+    line-height: 22px;
+    font-weight: 400;
+}
+
+.places__place_main-text {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 163%;
+    letter-spacing: 0;
+}
+
+.places__place_button {
+    margin-top: 48px;
+    width: 289px;
+    height: 38px;
+    margin-bottom: 80px;
+    color: white;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 100%;
+    background-image: linear-gradient(to right, #0278fe, #003a7b);
+    border: none;
+    border-radius: 4px;
+    padding: 13px 20px 13px 20px;
+    margin-right: auto;
+}
+
+@media screen and (max-width: 900px) {
+    .places {
         margin-top: 88px;
+        width: 100%;
+        padding: 0 20px; /* Add padding to ensure equal distance from both sides */
     }
+
     .places__place {
         display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        grid-template-rows: repeat(3, auto);
+        grid-template-columns: 1fr 2fr;
+        grid-template-rows: auto;
+        row-gap: 28px;
+        column-gap: 40px;
+        justify-items: center;
+        max-width: 100%; /* Ensure the content never exceeds the viewport width */
+    }
+
+    .places__place_image {
+        width: 100%;
+        height: auto;
+        display: block;
+        margin: 0; /* Remove margin to ensure equal distance from both sides */
+    }
+
+    .places__place_title {
+        width: 460px;
+        font-weight: 900;
+        font-size: 42px;
+        line-height: 46px;
+        text-align: left;
+        margin: 0px;
+    }
+
+    .places__place_website {
+        display: block;
+        align-self: self-end;
+        justify-self: start;
+    }
+
+    .places__place_website-heading {
+        margin: 0;
+        font-size: 12px;
+        line-height: 100%;
+        font-weight: 400;
+        color: #aaaaaa;
+        text-transform: uppercase;
+    }
+
+    .places__place_website-artist {
+        margin: 0;
+        font-size: 18px;
+        line-height: 22px;
+        font-weight: 400;
+    }
+
+    .places__place_main-text {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 163%;
+        letter-spacing: 0;
+    }
+
+    .places__place_button {
+        margin-top: 48px;
+        width: 289px;
+        height: 38px;
+        margin-bottom: 80px;
+        color: white;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 100%;
+        background-image: linear-gradient(to right, #0278fe, #003a7b);
+        border: none;
+        border-radius: 4px;
+        padding: 13px 20px 13px 20px;
+        margin-right: auto;
     }
 }
 
-@media screen and (max-width: 320px) {
-    .place {
+@media screen and (max-width: 700px) {
+    .places {
         margin-top: 62px;
+        padding: 0 20px; /* Add padding to ensure equal distance from both sides */
     }
+
     .places__place {
         display: grid;
-        grid-template-columns: repeat(1, 1fr);
+        grid-template-columns: 1fr;
         grid-template-rows: repeat(5, auto);
+        row-gap: 28px;
+        column-gap: 40px;
+        justify-items: center;
+        max-width: 100%; /* Ensure the content never exceeds the viewport width */
+    }
+
+    .places__place_image {
+        width: 100%;
+        height: auto;
+        display: block;
+        margin: 0; /* Remove margin to ensure equal distance from both sides */
     }
 }

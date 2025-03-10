@@ -1,11 +1,11 @@
 .photo-grid {
-    margin-top: 118px;
     display: grid;
     grid-template-columns: repeat(4, minmax(0, 1fr));
     grid-template-rows: auto;
     grid-column-gap: 16px;
     grid-row-gap: 16px;
     max-width: 1600px;
+    margin: 118px auto 0;
 }
 .photo-grid__image {
     width: 100%;
