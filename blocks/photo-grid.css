@@ -15,7 +15,7 @@
     margin-right: auto;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 961px) {
     .photo-grid {
         margin-top: 64px;
 
@@ -25,7 +25,7 @@
     }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 700px) {
     .photo-grid {
         margin-top: 38px;
         grid-template-columns: repeat(1, minmax(0, 1fr));

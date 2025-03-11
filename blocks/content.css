@@ -2,19 +2,23 @@
     display: flex;
     flex-direction: column;
     width: 100%;
-    max-width: 100vw; /* Ensure the content never exceeds the viewport width */
+    max-width: 100%;
     margin: auto;
     height: auto;
+    overflow-x: hidden;
+    box-sizing: border-box;
 }
 
 @media screen and (max-width: 768px) {
     .content {
-        max-width: 100vw; /* Ensure the content never exceeds the viewport width */
+        max-width: 100%;
+        padding: 0 24px;
     }
 }
 
 @media screen and (max-width: 320px) {
     .content {
-        max-width: 100vw; /* Ensure the content never exceeds the viewport width */
+        max-width: 100%;
+        padding: 0 16px;
     }
 }

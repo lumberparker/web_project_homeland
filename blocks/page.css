@@ -3,16 +3,13 @@ html {
     font-family: "Inter", Arial, sans-serif;
     color: #ffffff;
     min-width: 320px;
+    max-width: 100%;
     width: 100%;
     padding-bottom: 24px;
     margin: 0;
     overflow-x: hidden;
-}
-
-body {
-    margin: 0;
-    width: 100%;
-    height: auto;
+    box-sizing: border-box;
+    margin: auto;
 }
 
 .page {
@@ -23,7 +20,13 @@ body {
     flex-direction: column;
     margin: auto;
     height: auto;
+    max-width: 100%;
+    width: 100%;
+    overflow-x: hidden;
+    box-sizing: border-box;
+    margin: auto;
 }
+
 @media screen and (max-width: 768px) {
     .page {
         width: 100%;
