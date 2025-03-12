@@ -75,9 +75,9 @@
 
 .places__text {
     grid-area: 2 / 2 / 4 / 3;
-    column-count: 1;
     max-height: 300px;
     align-content: start;
+    font-size: (25px, 2vw);
 }
 
 .places__image-container {
@@ -125,7 +125,7 @@
     }
     .places__place {
         grid-template-columns: 1fr;
-        grid-template-rows: 1fr;
+        grid-template-rows: auto auto auto auto 200px;
     }
     .places__title {
         grid-area: 1 / 1 / 2 / 2;
@@ -142,9 +142,11 @@
         text-align: left;
     }
     .places__text {
-        grid-area: 5 / 1 / 8 / 2;
+        grid-area: 5 / 1 / 10 / 2;
         max-width: 80vw;
         align-self: start;
+        margin-bottom: 30px;
+        font-size: max(10px, 0.5vw);
     }
     .places__image-container {
         grid-area: 3 / 1 / 5 / 2;
@@ -167,7 +169,13 @@
         margin-right: 16px;
         text-align: center;
         align-self: end;
-        margin-top: 100px;
         margin-bottom: 64px;
+        margin-top: 0px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .places {
+        display: none;
     }
 }
