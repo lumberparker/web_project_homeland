@@ -147,6 +147,7 @@
         align-self: start;
         margin-bottom: 30px;
         font-size: max(10px, 0.5vw);
+        max-height: 600px;
     }
     .places__image-container {
         grid-area: 3 / 1 / 5 / 2;
@@ -168,7 +169,8 @@
         margin-left: 16px;
         margin-right: 16px;
         text-align: center;
-        align-self: end;
+        align-content: end;
+
         margin-bottom: 64px;
         margin-top: 0px;
     }
