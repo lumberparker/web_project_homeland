@@ -41,16 +41,20 @@
         margin-right: 24px;
     }
     .intro__title {
+        margin: auto;
         font-weight: 900;
-        font-size: 45px;
+        font-size: 7vw;
         line-height: 49px;
         letter-spacing: 0;
-        width: 90vw;
+        width: 100vw;
+        margin-top: 20px;
+        margin-left: auto;
+        margin-right: auto;
     }
 
     .intro__quote {
         font-weight: 400;
-        font-size: 24px;
+        font-size: ;
         line-height: 34px;
         letter-spacing: 0;
         width: 85vw;
@@ -81,9 +85,10 @@
     }
     .intro__title {
         font-weight: 900;
-        font-size: 40px;
+        font-size: 15vw;
         line-height: 44px;
         letter-spacing: 0;
+        margin: 0;
     }
 
     .intro__quote {
